@@ -1,0 +1,40 @@
+import java.util.*;
+class arraylist
+{
+void
+add_to_ArrayList(ArrayList<Integer>A,int x)
+{
+A.add(x);
+}
+void
+sort_ArrayList_Asc(ArrayList<Integer>A)
+{
+System.out.println(Collections.sort(A));
+}
+void
+reverse_ArrayList(ArrayList<Integer>A)
+{
+System.out.println(Collection.reverse(A));
+Collection.reverse(A);
+}
+int size_Of_ArrayList(ArrayList<Integer>A)
+{
+int x;
+x=aA.size();
+return x;
+}
+void
+sort_ArrayList_Desc(ArrayList<Integer>A)
+{
+Collection.Sort(A);
+Sytem.out.println(Collection.reverse(A));
+Collections.Sort(A,Collection.reverse.reverseOrder());
+}
+void print_ArrayList(ArrayList<Integer>A)
+{
+for(Integer i:A)
+{
+System.out.print(i+" ");
+}
+}
+}
